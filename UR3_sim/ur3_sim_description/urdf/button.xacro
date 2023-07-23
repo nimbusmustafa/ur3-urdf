@@ -26,17 +26,17 @@
     </joint>
 
 
-     <link name="button2">
+    <!-- <link name="button2">
       <visual>
        <geometry>
           <mesh filename="package://ur3_sim_description/meshes/button/ERC2022_button_ID2.dae" scale="0.001 0.001 0.001"/>
         </geometry>
       </visual>
-     <!-- <collision>
+      <collision>
        <geometry>
           <mesh filename="package://ur3_sim_description/meshes/button/ERC2022_button_ID1.dae" scale="0.001 0.001 0.001"/>
         </geometry>
-      </collision> -->
+      </collision> 
       <inertial>
         <mass value="10" />
         <inertia ixx="1.0" ixy="0.0" ixz="0.0" iyy="1.0" iyz="0.0" izz="1.0" />
@@ -47,21 +47,21 @@
       <parent link="base_link"/>
       <child link="button2"/>
       <origin xyz="0.477 0 0.42" rpy="1.5707 0.0 -1.5707"/>
-    </joint>
+    </joint>-->
 
 
 
-    <link name="button3">
+ <!--   <link name="button3">
       <visual>
         <geometry>
-          <mesh filename="package://ur3_sim_description/meshes/button/ERC2022_button_ID2.dae" scale="0.001 0.001 0.001"/>
+          <mesh filename="package://ur3_sim_description/meshes/button/ERC2022_button_ID3.dae" scale="0.001 0.001 0.001"/>
         </geometry>
       </visual>
-    <!--  <collision>
+      <collision>
         <geometry>
           <mesh filename="package://ur3_sim_description/meshes/button/ERC2022_button_ID2.dae" scale="0.001 0.001 0.001"/>
         </geometry>
-      </collision>-->
+      </collision>
       <inertial>
         <mass value="10" />
         <inertia ixx="1.0" ixy="0.0" ixz="0.0" iyy="1.0" iyz="0.0" izz="1.0" />
@@ -72,23 +72,23 @@
       <parent link="base_link"/>
       <child link="button3"/>
       <origin xyz="0.477 -0.1 0.42" rpy="1.5707 0.0 -1.5707"/>
-    </joint>
+    </joint>-->
 
 
 
 
 
- <link name="button4">
+<!-- <link name="button4">
       <visual>
        <geometry>
           <mesh filename="package://ur3_sim_description/meshes/button/ERC2022_button_ID4.dae" scale="0.001 0.001 0.001"/>
         </geometry>
       </visual>
-      <!-- <collision>
+       <collision>
        <geometry>
           <mesh filename="package://ur3_sim_description/meshes/button/ERC2022_button_ID1.dae" scale="0.001 0.001 0.001"/>
         </geometry>
-      </collision> -->
+      </collision>
       <inertial>
         <mass value="10" />
         <inertia ixx="1.0" ixy="0.0" ixz="0.0" iyy="1.0" iyz="0.0" izz="1.0" />
@@ -99,7 +99,7 @@
       <parent link="base_link"/>
       <child link="button4"/>
       <origin xyz="0.477 0.1 0.26" rpy="1.5707 0.0 -1.5707"/>
-    </joint>
+    </joint> -->
 
 
 
@@ -132,7 +132,7 @@
     <link name="button6">
       <visual>
         <geometry>
-          <mesh filename="package://ur3_sim_description/meshes/button/ERC2022_button_ID1.dae" scale="0.001 0.001 0.001"/>
+          <mesh filename="package://ur3_sim_description/meshes/button/ERC2022_button_ID3.dae" scale="0.001 0.001 0.001"/>
         </geometry>
       </visual>
       <!--<collision>
@@ -155,17 +155,17 @@
 
 
 
-    <link name="button7">
+  <!--  <link name="button7">
       <visual>
         <geometry>
-          <mesh filename="package://ur3_sim_description/meshes/button/ERC2022_button_ID2.dae" scale="0.001 0.001 0.001"/>
+          <mesh filename="package://ur3_sim_description/meshes/button/ERC2022_button_ID7.dae" scale="0.001 0.001 0.001"/>
         </geometry>
       </visual>
-   <!--  <collision>
+     <collision>
         <geometry>
           <mesh filename="package://ur3_sim_description/meshes/button/ERC2022_button_ID3.dae" scale="0.001 0.001 0.001"/>
         </geometry>
-      </collision>--> 
+      </collision>
       <inertial>
         <mass value="10" />
         <inertia ixx="1.0" ixy="0.0" ixz="0.0" iyy="1.0" iyz="0.0" izz="1.0" />
@@ -176,20 +176,20 @@
       <parent link="base_link"/>
       <child link="button7"/>
       <origin xyz="0.477 0.1 0.1" rpy="1.5707 0.0 -1.5707"/>
-    </joint>
+    </joint>--> 
 
 
- <link name="button8">
+ <!-- <link name="button8">
       <visual>
         <geometry>
-          <mesh filename="package://ur3_sim_description/meshes/button/ERC2022_button_ID4.dae" scale="0.001 0.001 0.001"/>
+          <mesh filename="package://ur3_sim_description/meshes/button/ERC2022_button_ID8.dae" scale="0.001 0.001 0.001"/>
         </geometry>
       </visual>
-   <!--  <collision>
+    <collision>
         <geometry>
           <mesh filename="package://ur3_sim_description/meshes/button/ERC2022_button_ID4.dae" scale="0.001 0.001 0.001"/>
         </geometry>
-      </collision> -->
+      </collision> 
       <inertial>
         <mass value="10" />
         <inertia ixx="1.0" ixy="0.0" ixz="0.0" iyy="1.0" iyz="0.0" izz="1.0" />
@@ -200,13 +200,13 @@
       <parent link="base_link"/>
       <child link="button8"/>
       <origin xyz="0.477 0 0.1" rpy="1.5707 0.0 -1.5707"/>
-    </joint>
+    </joint>-->
 
 
     <link name="button9">
       <visual>
         <geometry>
-          <mesh filename="package://ur3_sim_description/meshes/button/ERC2022_button_ID3.dae" scale="0.001 0.001 0.001"/>
+          <mesh filename="package://ur3_sim_description/meshes/button/ERC2022_button_ID4.dae" scale="0.001 0.001 0.001"/>
         </geometry>
       </visual>
     <!-- <collision>
