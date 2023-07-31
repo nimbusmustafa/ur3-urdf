@@ -21,11 +21,11 @@
           <mesh filename="package://ur3_sim_description/meshes/gripper/BaseBottom.dae" scale="0.001 0.001 0.001"/>
         </geometry>
       </visual>
-    <!--   <collision>
+      <collision>
         <geometry>
           <mesh filename="package://ur3_sim_description/meshes/gripper/BaseBottom.dae" scale="0.001 0.001 0.001"/>
         </geometry>
-      </collision>-->
+      </collision>
       <inertial>
         <mass value="0.00002265" />
         <origin xyz="0.022834885 -0.035958401 0.002623114" rpy="0 0 0" />
@@ -46,11 +46,11 @@
           <mesh filename="package://ur3_sim_description/meshes/gripper/Adapter.dae" scale="0.001 0.001 0.001"/>
         </geometry>
       </visual>
-    <!--  <collision>
+      <collision>
         <geometry>
           <mesh filename="package://ur3_sim_description/meshes/gripper/Adapter.dae" scale="0.001 0.001 0.001"/>
         </geometry>
-      </collision>-->
+      </collision>
       <inertial>
         <mass value="0.00002265" />
         <origin xyz="0.022834885 -0.035958401 0.002623114" rpy="0 0 0" />
@@ -78,12 +78,12 @@
           <mesh filename="package://ur3_sim_description/meshes/gripper/MainGear2.dae" scale="0.001 0.001 0.001"/>
         </geometry>
       </visual>
-    <!-- <collision>
+      <collision>
         <origin xyz="0.0 0 0.0"/>
         <geometry>
           <mesh filename="package://ur3_sim_description/meshes/gripper/MainGear2.dae" scale="0.001 0.001 0.001"/>
         </geometry>
-      </collision>--> 
+      </collision>
       <inertial>
         <mass value="0.00002265" />
         <origin xyz="${-4.189223*d_f} ${-0.000065*d_f} ${9.676432*d_f}" rpy="0 0 0" />
@@ -114,12 +114,12 @@
           <mesh filename="package://ur3_sim_description/meshes/gripper/MainGear1.dae" scale="0.001 0.001 0.001"/>
         </geometry>
       </visual>
-   <!--  <collision>
+      <collision>
         <origin xyz="-0.044341 0 0.0"/>
         <geometry>
           <mesh filename="package://ur3_sim_description/meshes/gripper/MainGear1.dae" scale="0.001 0.001 0.001"/>
         </geometry>
-      </collision>--> 
+      </collision>
       <inertial>
         <mass value="0.00002265" />
         <origin xyz="${48.526249*d_f} ${-0.000146*d_f} ${9.676307*d_f}" rpy="0 0 0" />
@@ -151,12 +151,12 @@
           <mesh filename="package://ur3_sim_description/meshes/gripper/Arm_R_Bottom.dae" scale="0.001 0.001 0.001"/>
         </geometry>
       </visual>
-   <!--   <collision>
+      <collision>
         <origin xyz="-0.094414 0 0.0"/>
         <geometry>
           <mesh filename="package://ur3_sim_description/meshes/gripper/Arm_R_Bottom.dae" scale="0.001 0.001 0.001"/>
         </geometry>
-      </collision>-->
+      </collision>
       <inertial>
           <mass value="0.0001"/>
         <inertia ixx="0.001" ixy="0.0" ixz="0.0" iyy="0.001" iyz="0.0" izz="0.001"/>
@@ -185,12 +185,12 @@
           <mesh filename="package://ur3_sim_description/meshes/gripper/Arm_L_Bottom.dae" scale="0.001 0.001 0.001"/>
         </geometry>
       </visual>
-  <!--   <collision>
+      <collision>
         <origin xyz="0.050137 0 0.0"/>
         <geometry>
           <mesh filename="package://ur3_sim_description/meshes/gripper/Arm_L_Bottom.dae" scale="0.001 0.001 0.001"/>
         </geometry>
-      </collision>--> 
+      </collision>
       <inertial>
           <mass value="0.0001"/>
         <inertia ixx="0.001" ixy="0.0" ixz="0.0" iyy="0.001" iyz="0.0" izz="0.001"/>
@@ -219,12 +219,12 @@
           <mesh filename="package://ur3_sim_description/meshes/gripper/Arm_R_Top.dae" scale="0.001 0.001 0.001"/>
         </geometry>
       </visual>
-   <!--  <collision>
+      <collision>
         <origin xyz="0.060137  0 0.027123" rpy="0.0 0.0 0.0"/>
         <geometry>
           <mesh filename="package://ur3_sim_description/meshes/gripper/Arm_R_Top.dae" scale="0.001 0.001 0.001"/>
         </geometry>
-      </collision>--> 
+      </collision>
       <inertial>
           <mass value="0.0001"/>
         <inertia ixx="0.001" ixy="0.0" ixz="0.0" iyy="0.001" iyz="0.0" izz="0.001"/>
@@ -252,12 +252,12 @@
           <mesh filename="package://ur3_sim_description/meshes/gripper/Arm_L_Top.dae" scale="0.001 0.001 0.001"/>
         </geometry>
       </visual>
-  <!--   <collision>
+      <collision>
         <origin xyz="0.050137 0 0.0"/>
         <geometry>
           <mesh filename="package://ur3_sim_description/meshes/gripper/Arm_L_Top.dae" scale="0.001 0.001 0.001"/>
         </geometry>
-      </collision>--> 
+      </collision>
       <inertial>
           <mass value="0.0001"/>
         <inertia ixx="0.001" ixy="0.0" ixz="0.0" iyy="0.001" iyz="0.0" izz="0.001"/>
@@ -284,11 +284,11 @@
           <mesh filename="package://ur3_sim_description/meshes/gripper/Sock1.dae" scale="0.001 0.001 0.001"/>
         </geometry>
       </visual>
-   <!--   <collision>
+      <collision>
         <geometry>
           <mesh filename="package://ur3_sim_description/meshes/gripper/Sock1.dae" scale="0.001 0.001 0.001"/>
         </geometry>
-      </collision>-->
+      </collision>
       <inertial>
         <mass value="0.0000002265" />
         <origin xyz="${-25.071934*d_f} ${69.012680*d_f} ${8.750031*d_f}" rpy="0 0 0" />
@@ -318,11 +318,11 @@
           <mesh filename="package://ur3_sim_description/meshes/gripper/Sock2.dae" scale="0.001 0.001 0.001"/>
         </geometry>
       </visual>
-  <!--    <collision>
+      <collision>
         <geometry>
           <mesh filename="package://ur3_sim_description/meshes/gripper/Sock2.dae" scale="0.001 0.001 0.001"/>
         </geometry>
-      </collision>-->
+      </collision>
       <inertial>
         <mass value="0.0000002265" />
         <!--  divide by 10E-11     -->
@@ -350,12 +350,12 @@
           <mesh filename="package://ur3_sim_description/meshes/gripper/Stick1.dae" scale="0.001 0.001 0.001"/>
         </geometry>
       </visual>
-   <!--  <collision>
+      <collision>
         <origin xyz="-0.01 -0.033 0.0"/>
         <geometry>
           <mesh filename="package://ur3_sim_description/meshes/gripper/Stick1.dae" scale="0.001 0.001 0.001"/>
         </geometry>
-      </collision>--> 
+      </collision>
       <inertial>
         <mass value="0.00002265" />
         <origin xyz="${-15.003726*d_f + 0.01} ${33.000000*d_f - 0.033} ${5.024187*d_f}" rpy="0 0 0" />
@@ -387,12 +387,12 @@
           <mesh filename="package://ur3_sim_description/meshes/gripper/Stick2.dae" scale="0.001 0.001 0.001"/>
         </geometry>
       </visual>
-  <!--   <collision>
+      <collision>
         <origin xyz="-0.034341 -0.033 0.0"/>
         <geometry>
           <mesh filename="package://ur3_sim_description/meshes/gripper/Stick2.dae" scale="0.001 0.001 0.001"/>
         </geometry>
-      </collision>--> 
+      </collision>
       <inertial>
         <mass value="0.00002265" />
         <origin xyz="${59.337273*d_f} ${33.000000*d_f} ${5.024188*d_f}" rpy="0 0 0" />
@@ -423,11 +423,11 @@
           <mesh filename="package://ur3_sim_description/meshes/gripper/Spacer.dae" scale="0.001 0.001 0.001"/>
         </geometry>
       </visual>
-  <!--    <collision>
+      <collision>
         <geometry>
           <mesh filename="package://ur3_sim_description/meshes/gripper/Spacer.dae" scale="0.001 0.001 0.001"/>
         </geometry>
-      </collision>-->
+      </collision>
       <inertial>
         <mass value="0.00002265" />
         <origin xyz="${22.172432*d_f} ${31.563816*d_f} ${15.463399*d_f}" rpy="0 0 0" />
@@ -456,12 +456,12 @@
           <mesh filename="package://ur3_sim_description/meshes/gripper/Stick_Top1.dae" scale="0.001 0.001 0.001"/>
         </geometry>
       </visual>
-   <!--   <collision>
+      <collision>
         <origin xyz="-0.01 -0.033 0.0"/>
         <geometry>
           <mesh filename="package://ur3_sim_description/meshes/gripper/Stick_Top1.dae" scale="0.001 0.001 0.001"/>
         </geometry>
-      </collision>-->
+      </collision>
       <inertial>
         <mass value="0.00002265" />
         <origin xyz="${-15.003726*d_f + 0.01} ${33.000000*d_f - 0.033} ${5.024187*d_f}" rpy="0 0 0" />
@@ -493,12 +493,12 @@
           <mesh filename="package://ur3_sim_description/meshes/gripper/Stick_Top2.dae" scale="0.001 0.001 0.001"/>
         </geometry>
       </visual>
-   <!--   <collision>
+      <collision>
         <origin xyz="-0.034341 -0.033 0.0"/>
         <geometry>
           <mesh filename="package://ur3_sim_description/meshes/gripper/Stick_Top2.dae" scale="0.001 0.001 0.001"/>
         </geometry>
-      </collision>-->
+      </collision>
       <inertial>
         <mass value="0.00002265" />
         <origin xyz="${59.337273*d_f} ${33.000000*d_f} ${5.024188*d_f}" rpy="0 0 0" />
@@ -529,11 +529,11 @@
           <mesh filename="package://ur3_sim_description/meshes/gripper/BaseTopCamera.dae" scale="0.001 0.001 0.001"/>
         </geometry>
       </visual>
-    <!-- <collision>
+      <collision>
         <geometry>
           <mesh filename="package://ur3_sim_description/meshes/gripper/BaseTopCamera.dae" scale="0.001 0.001 0.001"/>
         </geometry>
-      </collision>--> 
+      </collision>
       <inertial>
         <mass value="0.00002265" />
         <inertia ixx="0.00198528736" ixy="-0.00000264564125000" ixz="-0.00000829723937500"
@@ -565,11 +565,11 @@
           <mesh filename="package://ur3_sim_description/meshes/gripper/CableBlock.dae" scale="0.001 0.001 0.001"/>
         </geometry>
       </visual>
-   <!--   <collision>
+      <collision>
         <geometry>
           <mesh filename="package://ur3_sim_description/meshes/gripper/CableBlock.dae" scale="0.001 0.001 0.001"/>
         </geometry>
-      </collision>-->
+      </collision>
     </link>
 
     <joint name="cable_block_joint" type="fixed">
